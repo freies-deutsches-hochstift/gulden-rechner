@@ -1,0 +1,34 @@
+<html>
+<head>
+    <meta name="theme-color" content="#FFF" />
+    <link rel="stylesheet" type="text/css" href="gulden.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+    <script type="text/javascript" src="calc.js" defer></script>
+</head>
+<body>
+
+    <h1>Gulden addieren</h1>
+
+    <section aria-labelledby="entryHeadline">
+        <h2 id="entryHeadline">Eingabe</h2>
+        <input type="number" id="gulden1" placeholder="Gulden" min="0" />
+        <input type="number" id="kreuzer1" placeholder="Kreuzer" min="0" max="59" />
+        +
+        <input type="number" id="gulden2" placeholder="Gulden" min="0" />
+        <input type="number" id="kreuzer2" placeholder="Kreuzer" min="0" max="59" />
+    </section>
+
+    <section aria-labelledby="resultHeadline">
+        <h2 id="resultHeadline">Resultat</h2>
+        <span id="resultGulden">0</span> Gulden
+        <span id="resultKreuzer">0</span> Kreuzer
+    </section>
+
+    <section aria-labelledby="optionsHeadline">
+        <h2 id="optionsHeadline">Options</h2>
+        <button id="saveAndContinue">Speichern und weiterrechnen</button>
+    </section>
+
+</body>
+</html>
